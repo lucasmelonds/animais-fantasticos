@@ -15,7 +15,7 @@
     <title>Animais Fantásticos</title>
   </head>
   <body>
-    <nav class="menu js-menu">
+    <nav class="menu" data-menu="suave">
       <ul>
         <li><a href="#animais">Animais</a></li>
         <li><a href="#faq">Faq</a></li>
@@ -24,9 +24,9 @@
       </ul>
     </nav>
 
-    <section class="grid-section animais js-scroll" id="animais">
+    <section class="grid-section animais" data-anime="scroll" id="animais">
       <h1 class="titulo">Animais Fantásticos</h1>
-      <ul class="animais-lista js-tabmenu">
+      <ul class="animais-lista" data-tab="menu">
         <li>
           <img src="img/imagem1.jpg" />
         </li>
@@ -47,8 +47,8 @@
         </li>
       </ul>
 
-      <div class="animais-descricao js-tabcontent">
-        <section>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
           <h2>Raposa</h2>
           <p>
             As raposas são animais mamíferos e onívoros pertencentes à família
@@ -69,7 +69,7 @@
             semelhantes às pupilas verticais dos felídeos.
           </p>
         </section>
-        <section>
+        <section data-anime="show-down">
           <h2>Esquilo</h2>
           <p>
             As raposas são animais mamíferos e onívoros pertencentes à família
@@ -90,7 +90,7 @@
             semelhantes às pupilas verticais dos felídeos.
           </p>
         </section>
-        <section>
+        <section data-anime="show-down">
           <h2>Urso</h2>
           <p>
             As raposas são animais mamíferos e onívoros pertencentes à família
@@ -111,7 +111,7 @@
             semelhantes às pupilas verticais dos felídeos.
           </p>
         </section>
-        <section>
+        <section data-anime="show-right">
           <h2>Lobo</h2>
           <p>
             As raposas são animais mamíferos e onívoros pertencentes à família
@@ -132,7 +132,7 @@
             semelhantes às pupilas verticais dos felídeos.
           </p>
         </section>
-        <section>
+        <section data-anime="show-down">
           <h2>Macaco</h2>
           <p>
             As raposas são animais mamíferos e onívoros pertencentes à família
@@ -153,7 +153,7 @@
             semelhantes às pupilas verticais dos felídeos.
           </p>
         </section>
-        <section>
+        <section data-anime="show-right">
           <h2>Leão</h2>
           <p>
             As raposas são animais mamíferos e onívoros pertencentes à família
@@ -177,9 +177,9 @@
       </div>
     </section>
 
-    <section class="grid-section faq js-scroll" id="faq">
+    <section class="grid-section faq" data-anime="scroll" id="faq">
       <h1 class="titulo">FAQ</h1>
-      <dl class="faq-lista js-accordion">
+      <dl class="faq-lista" data-anime="accordion">
         <dt>Qual a idade dos animais?</dt>
         <dd>
           As raposas são animais mamíferos e onívoros pertencentes à família
@@ -205,7 +205,7 @@
       </dl>
     </section>
 
-    <section class="grid-section contato js-scroll" id="contato">
+    <section class="grid-section contato" data-anime="scroll" id="contato">
       <h1 class="titulo">Contato</h1>
       <div class="mapa">
         <img src="img/mapa.png" />
@@ -222,6 +222,6 @@
       <p>Todos os direitos reservados.</p>
     </footer>
 
-    <script src="../3 - Animais Fantasticos/script.js"></script>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>
